@@ -1,6 +1,6 @@
-import aboutpic from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
+import me2 from "../assets/me2.jpeg";
 const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -15,7 +15,13 @@ const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-lg" src={aboutpic} alt="about" />
+            <img
+              className="rounded-lg"
+              src={me2}
+              alt="about"
+              width={300}
+              height={300}
+            />
           </div>
         </motion.div>
         <motion.div

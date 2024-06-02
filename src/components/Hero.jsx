@@ -1,6 +1,6 @@
-import { HERO_CONTENT } from "../constants";
-import profilepic from "../assets/kevinRushProfile.jpg";
 import { motion } from "framer-motion";
+import { HERO_CONTENT } from "../constants";
+import me from "../assets/me.jpeg";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -48,8 +48,10 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1 }}
-              src={profilepic}
+              src={me}
               alt=""
+              width={400}
+              className="rounded-lg"
             />
           </div>
         </div>

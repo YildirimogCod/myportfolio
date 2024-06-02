@@ -1,76 +1,57 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/p1.png";
+import project2 from "../assets/projects/p2.png";
+import project3 from "../assets/projects/p3.png";
+import project4 from "../assets/projects/p4.png";
+import project5 from "../assets/projects/p5.png";
+export const HERO_CONTENT = `I am an aspiring front-end developer with a strong passion for creating dynamic and engaging web applications. Although I am just starting my journey in this field, I am dedicated to learning and mastering front-end technologies like React and Next.js. Additionally, I am working on developing my skills in back-end technologies, particularly Node.js and MongoDB. My goal is to develop innovative solutions that enhance user experiences and contribute to business success.`;
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
-
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
+export const ABOUT_TEXT = `Hello! I'm Oğuzhan, a mechanical engineering student with a passion for frontend development. Alongside my studies, I dedicate my time to mastering frontend technologies while balancing hobbies such as reading, playing football, and fitness. These activities not only keep me balanced but also instill in me discipline and focus, essential traits for both personal and professional growth. Continuously honing my skills in frontend development, I am committed to staying updated with the latest technologies and trends in the field. This drive fuels my learning journey and inspires me to strive for success in both my studies and future career."`;
 
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
     image: project1,
+    url: "https://comfystore-flame.vercel.app/",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "TailwindCSS", "React", "Redux"],
   },
   {
-    title: "Task Management App",
+    title: "Gym App",
     image: project2,
+    url: "https://gymapp-nextjs-14.vercel.app/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A comprehensive fitness platform developed using Next.js, offering information about various classes, trainers, pricing plans, and testimonials. The site features details on bodybuilding, cardio, fitness, and CrossFit programs, with award-winning trainers and modern equipment. Users can explore membership options and read blog posts on maintaining fitness.",
+    technologies: ["HTML", "NextJs", "TailwindCSS"],
   },
   {
-    title: "Portfolio Website",
+    title: "Weather App",
     image: project3,
+    url: "https://weathernext-wine.vercel.app/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A modern platform providing current weather information for major cities, developed using OpenWeather API and Next.js. It features a user-friendly interface with options to switch themes and view the source code.",
+    technologies: ["HTML", "Next Js", "TailwindCSS", "Shadcn UI"],
   },
   {
-    title: "Blogging Platform",
+    title: "Crypto App",
     image: project4,
+    url: "https://crypto-navy-rho.vercel.app/",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A sleek platform for tracking cryptocurrency prices, developed using modern web technologies. It features real-time updates on various cryptocurrencies, providing users with essential market information at a glance. The user-friendly interface ensures easy navigation and quick access to detailed data on market trends and individual coin performance.",
+    technologies: ["HTML", "React", "CSS"],
+  },
+  {
+    title: "Movie App",
+    image: project5,
+    url: "https://movie-react-js-xi.vercel.app/",
+    description:
+      "A dynamic platform developed using React.js, offering an extensive database of movies and TV shows. Users can search for their favorite titles, view detailed information, ratings, and reviews. The site features a clean and intuitive interface, making it easy to discover new content and keep track of popular releases.",
+    technologies: ["HTML", "Chakra UI", "React"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Beyoğlu/Istanbul",
+  phoneNo: "+90 507 453 19 82",
+  email: "yildirimog8@gmail.com",
 };

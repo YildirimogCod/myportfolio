@@ -1,21 +1,21 @@
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 
 const social = [
   {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/in/o%C4%9Fuzhan-y%C4%B1ld%C4%B1r%C4%B1m/",
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/o%C4%9Fuzhan-y%C4%B1ld%C4%B1r%C4%B1mresume/',
     icon: FaLinkedin,
   },
   {
-    name: "Github",
-    url: "https://github.com/YildirimogCod",
+    name: 'Github',
+    url: 'https://github.com/YildirimogCod',
     icon: FaGithub,
   },
   {
-    name: "Instagram",
-    url: "https://www.instagram.com/oguzhann.yldrm/",
+    name: 'Instagram',
+    url: 'https://www.instagram.com/oguzhann.yldrm/',
     icon: FaInstagram,
   },
 ];

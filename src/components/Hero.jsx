@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
-import { HERO_CONTENT } from "../constants";
-import me from "../assets/me.jpeg";
+import { motion } from 'framer-motion';
+import { HERO_CONTENT } from '../constants';
+import me from '../assets/me.jpeg';
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -30,7 +30,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-500 via-slate-600 to-purple-700 bg-clip-text text-4xl tracking-tight text-transparent"
             >
-              Front-end Developer
+              Full Stack Developer
             </motion.span>
             <motion.p
               variants={container(1)}
